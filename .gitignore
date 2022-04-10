@@ -1,0 +1,13 @@
+# package files #
+*.jar
+*.war
+*.zip
+
+
+
+.project
+
+java dependencies
+project files
+
+pom.xml
