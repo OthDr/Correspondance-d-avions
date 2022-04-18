@@ -1,7 +1,7 @@
 
 les variable des décisions : Xij =1 // si le avion i va transporter le client j  
 
-n = 6: les nombre d'avion
+n: les nombre d'avion
 
 les fonction objectif : max z=sum(i in n) sum(j in n ) p[i][j] * x[i][j];
 
