@@ -1,15 +1,14 @@
- lien de Github: https://github.com/haythemaribi/OPL_Problem7.git
 
-les variable des décisions : Xij =1 // nombre de passagers en transfert entre i et j
+les variable des décisions : Xij =1 // si le avion i va transporter le client j  
 
-n: les nombre d'avion
+n = 6: les nombre d'avion
 
 les fonction objectif : max z=sum(i in n) sum(j in n ) p[i][j] * x[i][j];
 
 les contraintes :
 
- sum(i in n)x[i][j]== 1; une ville de destination ne peut être desservie que par un seul avion
+sum(i in n)x[i][j]== 1; une ville de destination ne peut être desservie que par un seul avion
 
 sum(j in n)x[i][j] == 1; Une ville d’origine ne peut desservir qu’une seule ville de destination
 
- 𝑥𝑖𝑗 ∈ {0,1}
+ 𝑥𝑖𝑗 ∈ {0,1} i = 1 … 6 , j = 1 … 6
